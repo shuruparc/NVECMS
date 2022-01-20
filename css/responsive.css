@@ -1,0 +1,708 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 1920px) {
+	.item .home-banner-content{
+		left: 21%;	
+	}
+}
+@media screen and (max-width: 1600px) {
+	.item .home-banner-content{
+		left: 15%;	
+	}
+}
+
+@media screen and (max-width:1366px) {
+	.fade-carousel .slides .slide-1, 
+	.fade-carousel .slides .slide-2,
+	.fade-carousel .slides .slide-3 {
+	  height: 90vh;
+	}
+	.services{
+		margin-top: 0px;
+	}
+}
+@media screen and (max-width:1199px) {
+	.navbar-brand > img {
+    	width: 190px;
+	}
+	.item .home-banner-content{
+		top: 30%;
+		position: absolute;
+		left: 10%;
+	}
+}
+@media screen and (max-width:1080px) {
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 74vh;	
+	}
+	.item .home-banner-content{
+		top: 17%;	
+		left: 8%;
+	}
+	.services{
+		margin-top: 0px;	
+	}
+	.foot1{
+		width: 25%;
+		float: left;	
+	}
+}
+@media screen and (max-width:1024px) {
+	.navbar-default .navbar-nav > li > a{font-size:12px !important;}
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 100vh;	
+	}
+	.item .home-banner-content{
+		top: 25%;	
+		left: 8%;
+	}
+	.services{
+		margin-top: 0px;	
+	}
+	.content-box{
+		padding: 40px 70px;
+	}
+	.slide-image{
+		top: 16%;
+    	right: 5%;
+	}
+	.product-header{
+		min-height: 500px !important;	
+	}
+	.home-banner-content{margin-top:0px;}
+	img.deeper-image{margin:5px auto 0 auto !important;}
+}
+@media only screen and (max-width: 991px) {
+	.navbar-brand > img{width:100px; margin-top:10px;}
+	.navbar-right{margin-top:0 !important;}
+	.navbar-default .navbar-nav > li > a{
+		font-size: 11px !important;
+		padding: 20px 6px !important;
+	}
+	
+.home-banner-content{margin-top:0px;}
+	.mission-nav > li > a{font-size:13px !important; z-index:999999}
+}
+
+@media screen and (max-width:990px) {
+	
+	.item .home-banner-content{
+		top: 19%;
+		left:12%;
+	}
+	.home-banner-content p{
+		font-size: 22px;
+		line-height: 36px;	
+	}
+	.item h3{
+    	font-size: 30px;
+	}
+	.item h3 span{
+		font-size: 30px;
+	}
+	.item .btn{
+		margin-top: 25px;
+	}
+	.services{
+		margin-top: 0px;	
+	}
+	.content-box{
+		padding: 40px 20px;
+	}
+	.product-header {
+    min-height: 450px !important;
+}
+}
+@media only screen and (max-width: 991px) and (orientation: portrait) {
+	.item .home-banner-content{
+		top: 13%;
+		left: 14%;	
+	}
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2 {
+		height: 42vh;
+	}
+	.home-banner-content p{
+		font-size: 20px;
+		line-height: 36px;	
+	}
+	.fade-carousel{
+		height: 54vh;
+	}
+	.content-box{
+		padding: 40px 25px;
+	}
+	.product-header {
+    min-height: 450px !important;
+	}
+	.hoylu-main-logo img{width:150px;}
+}
+
+@media screen and (max-width:900px) {
+	.foot1{
+		width: 25%;
+		float: left;	
+	}
+	.home-banner-content p{
+		font-size: 21px;	
+	}
+	.product-header {
+    min-height: 450px !important;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 39vh;	
+	}
+	.item .home-banner-content{
+		top: 10%;
+		left: 5%;	
+	}
+	.services{
+		margin-top: 0px;	
+	}
+	.product-header {
+     min-height: 450px !important;
+	}
+	.usp{
+		padding: 80px 0;	
+	}
+	.usp-pro{
+		padding: 25px;
+	}
+	.usp-pro p span{
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.navbar-brand > img {
+    	width: 120px;
+	}
+	.navbar-default .navbar-nav > li > a{
+		font-size: 11px !important;
+		padding: 5px 5px !important;	
+	}
+	.navbar-right{margin-top:20px !important;}
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 48vh;	
+	}
+	.item .home-banner-content{
+		top: 11%;
+		left: 2%;		
+	}
+	.foot1{
+		width: 50%;
+		float: left;
+		height: 200px;
+	}
+	.item h3{
+		margin-bottom: 5px;	
+	}
+	.home-banner-content p{
+		font-size: 17px;
+		line-height: 28px;
+	}
+	.services{
+		margin-top: 0px;
+	}
+	.color-swatch{
+		padding: 10px 0;	
+	}
+	.banner{
+		min-height: 300px;
+	}
+	.contact-form{margin:0px auto; padding:0;}
+	.form-control{height:22px; font-size:12px;}
+	textarea.form-control{height:50px;}
+	.contact-form input[type="submit"]{margin-top:5px; font-size:12px;}
+	img.deeper-image{margin:70px auto 0 auto !important;}
+	.hoylu-main-logo img{height:65px !important; margin:10px auto !important; width:130px !important;}
+}
+
+@media screen and (max-width:767px) {
+	.navbar-brand > img {
+    	width: 180px;
+	}
+	.navbar-default .navbar-nav > li > a{
+		font-size: 11pt !important;	
+		text-align:left !important;
+	}
+	.content-box{
+		padding: 40px 70px;
+	}
+	.slider{
+		min-height: 465px;	
+	}
+	.item .home-banner-content{
+		left: 0%;	
+	}
+	.usp-pro{
+		margin: 0px 0px 20px 0px;
+	}
+	.color-swatch{
+		text-align: center !important;	
+	}
+	.color-swatch h2{
+		text-align: center !important;	
+	}
+	.color-swatch h2 span{
+		text-align: center !important;	
+	}
+	dl.color-pallate{
+		float: none;
+		margin: 30px auto;	
+		padding: 0px 256px;
+	}
+	.change-image{
+		margin-top: 80px !important;	
+	}
+	.item h3{font-size:24px;}
+	.item h3 span{font-size:24px;}
+	.home-banner-content p{font-size:15px;}
+	.c-left, .c-right{margin-top:10px;}
+/*	.contact-form{background:rgba(72,96,73,1.00);} */
+	.hoylu-toggle .icon-bar{background-color:#333;}
+	h2.hoylu-home-header{line-height:46px !important; margin-bottom:20px;}
+	img.deeper-image{margin:10px auto 15px auto !important;}
+	.hoylu-business-grid ul li .left-panel{width:100% !important; text-align:center; margin:10px 0;}
+	.hoylu-business-grid ul li .left-panel img{margin:0 auto !important;}
+	.hoylu-business-grid ul li h2{font-size:20px !important; text-align:center !important; margin-bottom:10px !important;}
+	.hoylu-business-grid ul li p{text-align:center !important;}
+	.hoylu-about-grid-main{border:2px solid transparent !important; margin-bottom:25px;}
+	.hoylu-about-grid{padding:0 !important;}
+	.hoylu-system-mobile{padding:15px 0;}
+	.hoylu-system-details-left{padding:0 !important; margin-bottom:25px;}
+	.hoylu-system-details-left p{text-align:center;}
+	.hoylu-system-details-right{padding:15px !important; background:#e6e6e6;}
+	.hoylu-system-details-right h2{text-align:center;}
+	.hoylu-system-details-right p{text-align:center;}
+	img.system-sec{margin-bottom:25px;}
+	.hoylu-system-details-sec-text p{text-align:center;}
+	.hoylu-product-solution-system-mobile{margin:25px 0;}
+	.hoylu-product-solution-system-mobile img{margin:0 auto 15px auto;}
+	.hoylu-product-solution-system-details-left{background:#e6e6e6; padding:15px;}
+	.product-solotion-grid-mobile-view{background:url(../images/products/hoylu/product-solution/pro-dolution-banner2.jpg) no-repeat; background-position:center center; background-size:cover; padding:15px 0;}
+	.product-solution-user-interface h1{text-align:center !important;}
+	.new-three-col{width:100% !important; padding-left:15px !important; padding-right:15px !important;}
+	.image-banner-strip-bottom-left-text p{border:2px solid transparent !important;}
+	.image-banner-strip-bottom-left-text{padding:10px 15px !important;}
+	.no-left-pad{margin-left:0px !important;}
+	
+	.hoylu-convention-capabilities, .hoylu-for-convention, .carnival-ocean, .carnival-ocean-grid, .eric-control-room, .hoylu-inspiration-suite, .hoylu-wall, .hoylu-standard-display, .hoylu-advance-display, .hoylu-pen-paper{padding:20px 0 !important;}
+	.carnival-ocean-grid-images{border-bottom:1px solid #fff; margin-bottom:20px;}
+	.no-bottom-border-mobile{border-bottom:1px solid transparent;}
+	
+	
+	.hoylu-convention-home-page-specification, .hoylu-product-solution-home-page-specification, .hoylu-home-page-specification{padding:30px 0 !important;}
+	img.chart-1{margin:0 auto 15px auto;}
+	img.chart-big{margin:0 auto 10px auto;}
+
+
+}
+@media screen and (max-width:700px) {
+	.slider-caption p{
+		font-size: 16px;	
+	}
+	dl.color-pallate{
+		padding: 0px 220px;
+	}	
+	.contact-form input[type="submit"]{width:20%;}
+	
+}
+@media screen and (max-width:667px) {
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 40vh;	
+	}
+	.item h3{
+		font-size: 40px;	
+		margin-bottom: 15px;
+	}
+	.item h3 span{
+		font-size: 40px;	
+	}
+		.foot1{
+			width: 50%;
+		}
+	.home-banner-content p{
+		font-size: 17px;
+		line-height: 29px;
+	}
+	.item .home-banner-content{
+		left: 2%;	
+	}
+	.services{
+		margin-top: 0px;	
+	}
+	dl.color-pallate {
+    	padding: 0px 205px;
+	}
+}
+@media only screen and (max-width: 640px) and (orientation: portrait) {
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 48vh;	
+	}
+	.item .home-banner-content{
+		left: 2%;
+		top: 14%;
+	}
+	.item .btn{
+		margin-top: 15px;
+		padding: 4px 10px;	
+	}
+	.services{
+		margin-top: 0px;	
+	}
+	.item h3{
+		font-size: 36px;
+		margin-bottom:10px;	
+	}
+	.item h3 span{
+		font-size: 36px;	
+	}
+	.home-banner-content p{
+		font-size: 10pt;
+		line-height: 25px;	
+	}
+	dl.color-pallate {
+    	padding: 0px 195px;
+	}
+	.contact-form input[type="submit"]{width:15%;}
+
+}
+
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 100vh;	
+	}
+	/*.flexslider{margin-top:50px !important;}*/
+	.flexslider{margin-top:0px !important;}
+	.item .home-banner-content{
+		top: 30%;
+		left: 1%;
+	}
+	.item h3{
+		font-size: 18px;
+		line-height:28px;
+		margin-bottom: 5px;
+	}
+	.item h3 span{
+		font-size: 18px;	
+	}
+	.home-banner-content p{
+		font-size: 15px;
+		line-height: 25px;
+		max-width: 100%;
+	}
+	.item .btn{
+		padding: 3px 6px;
+		margin-top: 15px;
+		font-size: 12px;
+	}
+	.services{
+		margin-top: 0px;	
+	}
+	dl.color-pallate {
+		padding: 0px 199px;
+	}
+	.subscribe-panel h1{margin-bottom: 10px; font-size: 25px; line-height: 32px;}
+}
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+	.social-link-2{margin:15px 0 10px 0; text-align:center; padding: 0 0 0 110px;}
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 90vh;
+	}
+	.fade-carousel .carousel-inner .item{
+		height: 90vh;	
+	}
+	.item h3{
+		font-size: 15px;
+		line-height:22px;
+		margin-bottom: 5px;
+	}
+	.item h3 span{
+		font-size: 15px;	
+	}
+	.home-banner-content p{
+		font-size: 10px;
+		line-height: 16px;
+		max-width: 100%;
+	}
+	.item .btn{
+		padding: 3px 6px;
+		margin-top: 15px;
+		font-size: 12px;
+	}
+	.subscribe-panel h1{margin-bottom: 10px; font-size: 22px; line-height: 26px;}
+}
+@media screen and (max-width:480px) {
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 33vh;
+	}
+	.fade-carousel .carousel-inner .item{
+		height: 90vh;	
+	}
+	.item .home-banner-content{
+		top: 9%;	
+	}
+	.item h3{
+		font-size: 39px;
+		margin-bottom: 12px;
+	}
+	.item h3 span{
+		font-size: 39px;
+	}
+	.home-banner-content p{
+		font-size: 10pt;
+		line-height: 20px;	
+	}
+	.services{
+		margin-top: 0px;
+	}
+	.product-header{
+		min-height: 350px !important;
+	}
+	dl.color-pallate {
+		padding: 0px 115px;
+	}	
+	.item h3{
+		font-size: 15px;
+		line-height:22px;
+		margin-bottom: 5px;
+	}
+	.item h3 span{
+		font-size: 15px;	
+	}
+	.home-banner-content p{
+		font-size: 10px;
+		line-height: 16px;
+		max-width: 100%;
+	}
+	.item .btn{
+		padding: 3px 6px;
+		margin-top: 15px;
+		font-size: 12px;
+	}
+	.subscribe-panel h1{margin-bottom: 10px; font-size: 22px; line-height: 26px;}
+}
+@media screen and (max-width:410pt) {
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 34vh;	
+	}
+	.item .home-banner-content{
+		top: 10%;
+		left: 1%;	
+	}
+	.item h3{
+		font-size: 30px;	
+	}
+	.item h3 span{
+		font-size: 30px;	
+	}
+	.home-banner-content p{
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.services{
+		margin-top: 0px;	
+	}
+	.content-box{
+		padding: 40px 20px;	
+	}
+		.foot1{
+			width: 100%;
+			text-align: center;
+			height: auto;
+			margin-bottom: 30px;
+		}
+		.footer-navig-bot{
+			text-align: center;	
+		}
+		ul.footer-navig-bot li{
+			margin: 0 10px 0 10px;	
+		}
+		.footer-navig p{
+			text-align: center;	
+		}
+		.footer-social{
+			text-align: center;
+			margin: 20px 10px 0 10px;	
+		}
+		ul.social-link{
+			margin-left: 60px;	
+		}
+		ul.social-link li{
+			margin: 0px 5px 0 5px;
+		}
+		dl.color-pallate {
+			padding: 0px 80px;
+		}
+	.item h3{
+		font-size: 15px;
+		line-height:22px;
+		margin-bottom: 5px;
+	}
+	.item h3 span{
+		font-size: 15px;	
+	}
+	.home-banner-content p{
+		font-size: 10px;
+		line-height: 16px;
+		max-width: 100%;
+	}
+	.item .btn{
+		padding: 3px 6px;
+		margin-top: 15px;
+		font-size: 12px;
+	}
+	.subscribe-panel h1{margin-bottom: 10px; font-size: 22px; line-height: 26px;}
+	.contact-form input[type="submit"]{width:18%;}
+
+}
+
+@media only screen and (max-width: 373px) and (orientation: portrait) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{	
+		margin-top:10px !important;
+	}
+	.navbar-brand > img {
+    	width: 150px;
+	}
+	.fade-carousel {
+		height: 50vh;
+	}
+	.fade-carousel .carousel-inner .item {
+		height: 50vh;
+	}
+	.item .home-banner-content{
+		top: 16%;	
+	}
+	.home-banner-content p{
+		font-size: 12px;	
+	}
+	.services {
+    	margin-top: 0px;
+	}
+	.product-header{
+		min-height: 300px !important;
+	}
+	dl.color-pallate {
+		padding: 0px 60px;
+	}
+	.item h3{
+		font-size: 15px;
+		line-height:22px;
+		margin-bottom: 5px;
+	}
+	.item h3 span{
+		font-size: 15px;	
+	}
+	.home-banner-content p{
+		font-size: 10px;
+		line-height: 16px;
+		max-width: 100%;
+	}
+	.item .btn{
+		padding: 3px 6px;
+		margin-top: 15px;
+		font-size: 12px;
+	}
+	.subscribe-panel h1{margin-bottom: 10px; font-size: 22px; line-height: 26px;}
+	.contact-form input[type="submit"]{width:25%;}
+	ul.contact-social-link li a{margin:0 5px 0 0;}
+	/*.contact-landing{background-position: -377px 0px !important;}*/
+	.hoylu-main-logo img{height:65px !important; width:120px !important; }
+}
+
+@media screen and (max-width:360px) {
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3{
+		height: 40vh;	
+	}
+	.item .home-banner-content{
+		top: 16%;	
+	}
+	.content-box{
+		padding: 40px 20px;
+	}
+	.content-box p{
+		font-size: 15px;
+		line-height: 26px;
+	}
+	ul.social-link{
+		margin: 0px 30px;	
+	}
+	.content-box a.btn{
+		font-size: 15px;	
+	}
+	.item h3{
+		font-size: 15px;
+		line-height:22px;
+		margin-bottom: 5px;
+	}
+	.item h3 span{
+		font-size: 15px;	
+	}
+	.home-banner-content p{
+		font-size: 10px;
+		line-height: 16px;
+		max-width: 100%;
+	}
+	.item .btn{
+		padding: 3px 6px;
+		margin-top: 15px;
+		font-size: 12px;
+	}
+	.services{
+		margin-top: 0px;
+	}
+	.social-link-2{padding-left:45px;}
+}
+@media screen and (max-width:337px) {
+	.click-here{margin-top:10px !important;}
+	.click-here p{margin-top:-15px !important;}
+}
+@media screen and (max-width:320px) {
+	.social-link-2{padding-left:20px;}
+	.item .home-banner-content{
+		top: 10%;
+		left: 0;
+	}
+	.item h3{
+		font-size:16px;
+		line-height:20px;
+		margin-bottom: 2px;
+	}
+	.item h3 span{
+		font-size:16px;	
+	}
+	.home-banner-content p{
+		font-size: 9px;
+		line-height: 16px;
+		max-width: 100%;	
+	}
+	.services{
+		margin-top: 0px;
+	}
+	.item .btn{
+		margin-top: 10px;	
+		font-size: 11px;
+	}
+	ul.social-link{
+		margin: 0px 8px;	
+	}
+	.product-header{
+		min-height: 270px !important;
+	}
+	.usp{
+		padding: 50px 0;	
+	}
+	.usp-pro p span{
+		font-size: 20px;	
+	}
+	dl.color-pallate {
+		padding: 0px 30px;
+	}
+	
+}
+
+
+

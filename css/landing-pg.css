@@ -1,0 +1,631 @@
+@charset "utf-8";
+/* CSS Document */
+.section-landing {
+	min-height: 450px !important;
+	width: 100%;
+}
+.a-landing {
+	background: url(../images/products/ld-pg/a-ln-pg.jpg);
+}
+.d-landing {
+	background: url(../images/products/ld-pg/d-ln-pg.jpg);
+}
+.i-landing {
+	background: url(../images/products/ld-pg/i-ld-pg.jpg);
+}
+.p-landing {
+	background: url(../images/products/ld-pg/p-ld-pg.jpg);
+}
+.r-landing {
+	background: url(../images/products/ld-pg/r-ld-pg.jpg);
+}
+.v-landing {
+	background: url(../images/products/ld-pg/v-ld-pg.jpg);
+}
+.about-landing {
+	background:url(../images/about-us.jpg);
+}
+/*.about-images {
+	position:relative;
+	float:right;
+	width:100%;
+	height:450px;
+}*/
+.about-images {
+	position:absolute;
+	z-index:1;
+	overflow:hidden !important;
+	width:100%;
+	height:450px;
+	right:0 !important;
+}
+.about-images img {
+	position:absolute;
+	top:-19px;
+	right:0 !important;
+	
+}
+.contact-landing {
+	background:url(../images/Contact.jpg);
+	position:relative;
+}
+img.contact-icon-1 {
+	position: absolute;
+	bottom: 144px;
+	left: 778px;
+	opacity: 0.5;
+}
+img.contact-icon-1 a {
+	opacity:1;
+}
+.modal-body a {
+	color:#2593d5;
+	margin-left:15px;
+}
+.home-enterprise-landing {
+	background: url(../images/home.jpg);
+}
+/*MERLION PAGE*/
+.merlion-wifi-landing {
+	background:url(../images/products/merlion/landing-pg/1.jpg);
+}
+.merlion-3g-landing {
+	background:url(../images/products/merlion/landing-pg/2.jpg);
+}
+.hoylu-landing-overlay, .bss-landing-overlay, .merlion-landing {/*background-color: rgba(49,64,79,0.6);*/
+	position:relative;
+	height:100%;
+	text-align:center;
+transition:.3s all ease-in-out;
+-webkit-transition:.3s all ease-in-out;
+-moz-transition:.3s all ease-in-out;
+}
+.hoylu-landing-overlay:hover, .bss-landing-overlay:hover, .merlion-landing:hover {
+	background-color: rgba(49, 64, 79, 0.5);
+}
+.wireless-landing {
+	background-color: rgba(39, 35, 36, 0.4);
+	position:relative;
+	height:100%;
+	text-align:center;
+transition:.3s all ease-in-out;
+-webkit-transition:.3s all ease-in-out;
+-moz-transition:.3s all ease-in-out;
+}
+.wireless-landing:hover {
+	background-color: rgba(39, 35, 36, 0.6);
+}
+.wireless-heading {
+	margin-top:180px;
+	color:#fff;
+}
+.wireless-heading h2 {
+	font-size:80px;
+	padding-left:0px;
+	margin-bottom:30px;
+}
+.wireless-landing .btn, .urban-landing .btn {
+	display: inline-block;
+	padding: 6px 38px;
+	margin-bottom: 0;
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border: 3px solid transparent;
+	border-radius: 0px;
+}
+.merlion-landing .btn {
+	display: inline-block;
+	padding: 6px 38px;
+	margin-top:80px;
+	font-size: 27px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border: 3px solid transparent;
+	border-radius: 0px;
+}
+.merlion-landing .btn-default {
+	color: #fff;
+	background-color: transparent;
+	border-color: #fff;
+}
+.merlion-landing .btn-default:hover {
+	color: #333;
+	background-color: #fff;
+}
+/*.urban-landing {
+	background: url(../images/urban.jpg);
+	min-height:752px !important;
+}
+.urban-landing .btn-default, .wireless-landing .btn-default {
+	color: #fff;
+	background-color: transparent;
+	border-color: #fff;
+}
+.urban-landing .btn-default:hover, .wireless-landing .btn-default:hover {
+	color: #333;
+	background-color: #fff;
+}
+.urban-landing img:hover, .wireless-landing img:hover {
+	opacity:.0;
+}
+.urban-landing img {
+	width:100%;
+	height:450px;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:.0;
+transition:.3s all ease-in-out;
+-webkit-transition:.3s all ease-in-out;
+-moz-transition:.3s all ease-in-out;
+}
+
+.copper-landing {
+	background:url(../images/copper.jpg);
+	min-height:752px !important;
+}
+.copper-landing .btn-default, .wireless-landing .btn-default {
+	color: #fff;
+	background-color: transparent;
+	border-color: #fff;
+}
+.copper-landing .btn-default:hover, .wireless-landing .btn-default:hover {
+	color: #333;
+	background-color: #fff;
+}
+.copper-landing img:hover, .wireless-landing img:hover {
+	opacity:.0;
+}
+.copper-landing img {
+	width:100%;
+	height:450px;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:.0;
+transition:.3s all ease-in-out;
+-webkit-transition:.3s all ease-in-out;
+-moz-transition:.3s all ease-in-out;
+}
+
+.iot-landing {
+	background:url(../images/iot.jpg);
+	min-height:752px !important;
+}
+.iot-landing .btn-default, .wireless-landing .btn-default {
+	color: #fff;
+	background-color: transparent;
+	border-color: #fff;
+}
+.iot-landing .btn-default:hover, .wireless-landing .btn-default:hover {
+	color: #333;
+	background-color: #fff;
+}
+.iot-landing img:hover, .wireless-landing img:hover {
+	opacity:.0;
+}
+.iot-landing img {
+	width:100%;
+	height:450px;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:.0;
+transition:.3s all ease-in-out;
+-webkit-transition:.3s all ease-in-out;
+-moz-transition:.3s all ease-in-out;
+}
+
+.pos-landing {
+	background:url(../images/pos.jpg);
+	min-height:752px !important;
+}
+.pos-landing .btn-default, .wireless-landing .btn-default {
+	color: #fff;
+	background-color: transparent;
+	border-color: #fff;
+}
+.pos-landing .btn-default:hover, .wireless-landing .btn-default:hover {
+	color: #333;
+	background-color: #fff;
+}
+.pos-landing img:hover, .wireless-landing img:hover {
+	opacity:.0;
+}
+.pos-landing img {
+	width:100%;
+	height:450px;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:.0;
+transition:.3s all ease-in-out;
+-webkit-transition:.3s all ease-in-out;
+-moz-transition:.3s all ease-in-out;
+}*/
+
+.fibre-landing {
+	background:url(../images/Fibre.jpg);
+}
+/*Mobility Page*/
+.a-landing-mobility {
+	background: url(../images/products/mobility/a-series.jpg);
+}
+.d-landing-mobility {
+	background: url(../images/products/mobility/d-series.jpg);
+}
+.i-landing-mobility {
+	background: url(../images/products/mobility/i-series.jpg);
+}
+.r-landing-mobility {
+	background: url(../images/products/mobility/r-series.jpg);
+}
+.v-landing-mobility {
+	background: url(../images/products/mobility/v-series.jpg);
+}
+.merlion-landing-mobility {
+	background:url(../images/products/mobility/merlion-series.jpg);
+}
+/*Home-enterprise page*/
+.home-enterprise-banner {
+	background: url(../images/products/wireless/home-enterprise-inside-pg.jpg);
+}
+/*Urban Rural Connectivity page*/
+.urban-rural-banner {
+	background: url(../images/urban-rural-connectivity-banner-new1.jpg);
+}
+.urban-rural-banner-wlanprodfamily {
+	background: url(../images/urban-rural-connectivity-banner-wlanprodfamily.jpg);
+}
+.urban-rural-banner-wirelessips {
+	background: url(../images/wirelessips.jpg);
+}
+.urban-rural-banner-wifisolutionoutdoorarea {
+	background: url(../images/wifisolutionoutdoorarea.jpg);
+}
+.urban-rural-banner-wifisolutionfortouristarea {
+	background: url(../images/wifisolutionfortouristarea.jpg);
+}
+.urban-rural-banner-smartantennaarray {
+	background: url(../images/smartantennaarray.jpg);
+}
+.urban-rural-banner-wifisolutionforenterprise {
+	background: url(../images/wifisolutionforenterprise.jpg);
+}
+@media (min-width:320px) and (max-width:640px) {
+}
+/*Cooper landing page*/
+.cooper-landing-pg {
+	background:url(../images/products/infra/cooper.jpg);
+}
+/*Fibre landing page*/
+.fibre-landing-pg {
+	background:url(../images/products/infra/fibre.jpg);
+}
+a:focus, a:hover {
+	text-decoration: none !important;
+}
+ol.breadcrumb li a {
+	color: #006;
+	text-decoration: none;
+}
+.breadcrumb {
+	margin-bottom: 30px;
+	background-color: #fff;
+}
+/*A Series landing page*/
+.landing-pg-main {
+	background-color: #fff;
+	padding: 100px 0;
+}
+.series-list {
+	margin-bottom: 30px;
+ transition: .5s all ease-in-out;
+ -webkit-transition: .5s all ease-in-out;
+ -moz-transition: .5s all ease-in-out;
+}
+.series-grid-main {
+	background: #fff;
+	padding: 45px 35px;
+	text-align: center;
+	border: 1px solid transparent;
+ transition: .5s all ease-in-out;
+ -webkit-transition: .5s all ease-in-out;
+ -moz-transition: .5s all ease-in-out;
+}
+.series-grid-main:hover {
+	border: 1px solid #003;
+}
+.series-grid-main:hover a.btn {
+	border-color: #003;
+}
+.series-grid-main img {
+	margin: 0px auto 20px auto;
+ transition: .3s ease-in-out;
+ -webkit-transition: .3s ease-in-out;
+ -moz-transition: .3s ease-in-out;
+ -ms-transition: .3s ease-in-out;
+ -o-transition: .3s ease-in-out;
+}
+.series-grid-main h1 {
+	font-size: 26px;
+	line-height: 18px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #003;
+	margin-bottom: 20px;
+}
+.series-grid-main h1 a {
+	text-decoration: none;
+	color: #003;
+}
+.series-grid-main a.btn {
+	display: inline-block;
+	padding: 5px 11pt;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 0;
+}
+.series-grid-main a.btn-default {
+	color: #333;
+	background-color: #fff;
+}
+a.btn.active, a.btn:active {
+	box-shadow:none;
+}
+.series-grid-main a.btn.active.focus, .series-grid-main a.btn.active:focus, .series-grid-main a.btn.focus, .series-grid-main a.btn:active.focus, .series-grid-main a.btn:active:focus, .series-grid-main a.btn:focus {
+	outline: none;
+}
+.app-solution-pg {
+	background:url(../images/products/app-solution-banner.jpg);
+}
+/*Atom Series Update*/
+.mob-pro {
+	margin:0 auto;
+}
+.pro-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+.pro-list>li {
+	float: left;
+	width: 50%;
+	padding: 25px;
+	border:1px solid transparent;
+	margin:10px 0;
+transition:.3s all ease-in-out;
+-webkit-transition:.3s all ease-in-out;
+-moz-transition:.3s all ease-in-out;
+-ms-transition:.3s all ease-in-out;
+}
+.pro-list>li:hover {
+	border:1px solid #ddd;
+}
+.pro-image {
+	float: left;
+	padding-right: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 48%;
+	display: inline-block;
+}
+.pro-image img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	margin:0 auto;
+}
+.pro-content {
+	float: none;
+	width: 50%;
+	margin: 30px 0 0;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.pro-content h3 {
+	font-size:60px;
+	line-height:74px;
+	color:#333;
+	margin:0 0 10px 0;
+}
+.pro-content btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 10pt;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid #333;
+	border-radius: 0px;
+}
+.pro-content .btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #333;
+}
+.pro-content .btn.active.focus, .pro-content .btn.active:focus, .pro-content .btn.focus, .pro-content .btn:active.focus, .pro-content .btn:active:focus, .pro-content .btn:focus {
+	outline: 0;
+	outline-offset: 0;
+}
+.pos-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+.pos-list>li {
+	float: left;
+	width: 50%;
+	padding: 25px;
+	border:1px solid transparent;
+	margin:10px 0;
+transition:.3s all ease-in-out;
+-webkit-transition:.3s all ease-in-out;
+-moz-transition:.3s all ease-in-out;
+-ms-transition:.3s all ease-in-out;
+}
+.pos-list>li:hover {
+	border:1px solid #ddd;
+}
+.pos-image {
+	float: left;
+	padding-right: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 48%;
+	display: inline-block;
+}
+.pos-image img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	margin:0 auto;
+}
+.pos-content {
+	float: none;
+	width: 50%;
+	margin: 30px 0 0;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.pos-content h3 {
+	font-size:60px;
+	line-height:74px;
+	color:#f9e400 !important;
+	margin:0 0 10px 0;
+}
+.pos-content btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 10pt;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid #333;
+	border-radius: 0px;
+}
+.pos-content .btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #333;
+}
+.pos-content .btn.active.focus, .pos-content .btn.active:focus, .pos-content .btn.focus, .pos-content .btn:active.focus, .pos-content .btn:active:focus, .pos-content .btn:focus {
+	outline: 0;
+	outline-offset: 0;
+}
+.prima-series h3 {
+	color:#666666;
+}
+.i-series h3 {
+	color:#0883bf;
+}
+.v-series h3 {
+	color:#00349a;
+}
+.r-series h3 {
+	color:#56cac1;
+}
+.atom-series h3 {
+	color:#951f11;
+}
+.click-here {
+	background:#708c7e;
+	padding:6px 8px;
+	color:#fff;
+	border-radius:5px;
+	display:inline-block;
+	margin: 0;
+	height: 24px;
+}
+.click-here p {
+	font-size: 12pt;
+	margin-top:-12px;
+	padding:0;
+	cursor:pointer;
+}
+/*BSS PAGE*/
+/*.bss-landing {
+	background:url(../images/products/bss-landing-banner.jpg);
+}
+.hoylu-landing {
+	background:url(../images/products/hoylu-banner.jpg);
+}*/
+/*MISSION CONTROL HOME PAGE BANNER*/
+.mission-main-banner {
+	background:url(../images/products/mission-control/home/mission-control-banner.jpg);
+}
+.telco-page-main-banner {
+	background:url(../images/products/mission-control/telco/3.jpg);
+}
+.utilites-page-main-banner {
+	background:url(../images/products/mission-control/utilities/3.jpg);
+}
+.mobile-money-page-main-banner {
+	background:url(../images/products/mission-control/mobile-money/3.jpg);
+}
+.iotmm-page-main-banner {
+	background:url(../images/products/mission-control/iotm2m/3.jpg);
+}
+.allmodule-page-main-banner {
+	background:url(../images/products/mission-control/all-module/1.jpg);
+}
+/*HOYLU PAGE*/ 
+.hoylu-main-banner {
+}
+.section-landing {
+	background-position: center center;
+	background-size: cover;
+}
+.section-bg {
+	background-size: cover;
+	background-position: center center;
+}

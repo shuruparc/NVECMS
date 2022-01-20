@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+/*Home & Enterprise Page*/
+
+.other-pages{
+	padding: 50px 0;	
+}
+.list-group{
+	margin-bottom: 0px;	
+}
+.list-group-item{
+	color: #003;
+	font-size: 16px;
+	line-height: 24px;	
+}
+.list-group-item:first-child{
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.list-group-item:last-child{
+	border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;	
+}

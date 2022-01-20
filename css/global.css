@@ -1,0 +1,492 @@
+﻿@media (min-width:768px) and (max-width:1366px) {
+/* ————— tmcategories.tpl ————— */
+#tmcategories {
+ min-height:37px;
+ float:left;
+ padding:0px 0 0 0;
+}
+#cat {
+ position:relative;
+ z-index:1000;
+ padding:6px 0 0 0;
+}
+#cat > li {
+ float:left;
+ list-style:none !important;
+/*border-right:1px solid #000;*/
+}
+#cat > li.sub {
+ background:url(../images/tmc_active.png) right -64px no-repeat;
+}
+#cat > li > a {
+ /*height:26px;*/
+ display:inline !important;
+ padding:0px 9px 0 9px;
+ background:url(../images/tmc_item.png) right 0 no-repeat;
+ font-family:calibri !important;
+ font-size:13pt !important;
+ font-weight:bold;
+ letter-spacing:0.1mm !important;
+ text-transform:uppercase;
+ color:#1c1c1c;
+ text-decoration:none;
+}
+#cat > li:hover > a, #cat > li > a.selected {
+ background:url(../images/tmc_active.png) right 0 no-repeat;
+ border:none !important;
+ color:#5ea61e;
+}
+#cat > li.sub:hover > a, #cat > li.sub > a.selected {
+ background:url(../images/tmc_active.png) right -31px no-repeat;
+}
+#cat > li > div {
+}
+#cat li ul.subcat1 {
+ min-width:669px !important;
+ min-height:169px;
+ padding:19px 9px 19px 9px;
+ background:url(../images/tmc_sub.png) 0 0 repeat-x #303030;
+ position:absolute;
+ left:0;
+ top:37px !important;
+}
+#cat ul.subcat1 li {
+ width:169px !important;
+ float:left;
+ padding:4px 9px 4px 0;
+}
+#cat ul.subcat1 li > img {
+ position:absolute;
+ right:19px;
+ top:19px;
+ display:none;
+}
+#cat ul.subcat1 li:hover > img {
+ display:block;
+}
+#cat ul.subcat1 li a {
+ font:10pt "Calibri";
+ color:#8b8b8b;
+ text-decoration:none;
+}
+#cat ul.subcat1 li a:hover, #cat ul.subcat1 li a.selected {
+ color:#fff;
+}
+#cat ul.subcat1 li div {
+ position:relative;
+}
+#cat ul.subcat1 li div ul.subcat2 {
+ padding:3px 0 7px 0;
+ background:#000;
+ position:absolute;
+ left:0;
+ top:0;
+ display:none;
+}
+#cat ul.subcat1 li div ul.subcat2 li {
+ padding:3px 6px 0 6px;
+}
+#cat ul.subcat1 li:hover div ul.subcat2 {
+ display:block;
+}
+}
+ @media (min-width:320px) {
+/* ————— tmcategories.tpl ————— */
+#tmcategories {
+ min-height:37px;
+ float:left;
+ padding:0px 0 0 0;
+ background:#f8f8f8 !important;
+}
+#cat {
+ position:relative;
+ z-index:1000;
+ padding:6px 0 0 0;
+ background:#f8f8f8 !important;
+}
+#cat > li {
+ float:left;
+ list-style:none !important;
+ background:#f8f8f8 !important;
+/*border-right:1px solid #000;*/
+}
+#cat > li.sub {
+ background:url(../images/tmc_active.png) right -64px no-repeat;
+}
+#cat > li > a {
+ width:289px !important;
+ height:auto;
+	/*border-bottom:1px solid #e4e4e4 !important;*/
+	display:block;
+ padding:6px 9px 6px 9px !important;
+ background:url(../images/tmc_item.png) right 0 no-repeat;
+ font-family:calibri !important;
+ font-size:13pt !important;
+ font-weight:bold;
+ letter-spacing:0.1mm !important;
+ text-transform:uppercase;
+ color:#1c1c1c;
+ text-decoration:none;
+}
+#cat > li:hover > a, #cat > li > a.selected {
+ background:url(../images/tmc_active.png) right 0 no-repeat;
+ border:none;
+}
+#cat > li.sub:hover > a, #cat > li.sub > a.selected {
+ background:url(../images/tmc_active.png) right -31px no-repeat;
+}
+#cat > li > div {
+}
+#cat li ul.subcat1 {
+ width:289px !important;
+ min-height:189px;
+ padding:19px 19px 19px 19px;
+ background:url(../images/tmc_sub.png) 0 0 repeat-x #303030;
+ position:absolute;
+ left:0;
+ top:84px;
+}
+#cat ul.subcat1 li {
+ width:289px;
+ float:left;
+ padding:4px 29px 4px 0;
+}
+#cat ul.subcat1 li > img {
+ position:absolute;
+ right:19px;
+ top:19px;
+ display:none;
+}
+#cat ul.subcat1 li:hover > img {
+ display:block;
+}
+#cat ul.subcat1 li a {
+ font:10pt "Calibri";
+ color:#8b8b8b;
+ text-decoration:none;
+}
+#cat ul.subcat1 li a:hover, #cat ul.subcat1 li a.selected {
+ color:#fff;
+}
+#cat ul.subcat1 li div {
+ position:relative;
+}
+#cat ul.subcat1 li div ul.subcat2 {
+ padding:3px 0 7px 0;
+ background:#000;
+ position:absolute;
+ left:0;
+ top:0;
+ display:none;
+}
+#cat ul.subcat1 li div ul.subcat2 li {
+ padding:3px 6px 0 6px;
+}
+#cat ul.subcat1 li:hover div ul.subcat2 {
+ display:block;
+}
+/*.sf-menu sf-js-enabled
+{
+	widows:200px !important;
+}*/
+}
+@media (max-width:480px) {
+/* ————— tmcategories.tpl ————— */
+#tmcategories {
+ min-height:37px;
+ float:left;
+ padding:0px 0 0 0;
+ background:#f8f8f8 !important;
+}
+#cat {
+ position:relative;
+ z-index:1000;
+ padding:6px 0 0 0;
+ background:#f8f8f8 !important;
+}
+#cat > li {
+ float:left;
+ list-style:none !important;
+ background:#f8f8f8 !important;
+/*border-right:1px solid #000;*/
+}
+#cat > li.sub {
+ background:url(../images/tmc_active.png) right -64px no-repeat;
+}
+#cat > li > a {
+ width:449px !important;
+ height:auto;
+	/*border-bottom:1px solid #e4e4e4 !important;*/
+	display:block;
+ padding:6px 9px 6px 9px !important;
+ background:url(../images/tmc_item.png) right 0 no-repeat;
+ font-family:calibri !important;
+ font-size:13pt !important;
+ font-weight:bold;
+ letter-spacing:0.1mm !important;
+ text-transform:uppercase;
+ color:#1c1c1c;
+ text-decoration:none;
+}
+#cat > li:hover > a, #cat > li > a.selected {
+ background:url(../images/tmc_active.png) right 0 no-repeat;
+ border:none;
+}
+#cat > li.sub:hover > a, #cat > li.sub > a.selected {
+ background:url(../images/tmc_active.png) right -31px no-repeat;
+}
+#cat > li > div {
+}
+#cat li ul.subcat1 {
+ width:449px !important;
+ min-height:189px;
+ padding:19px 19px 19px 19px;
+ background:url(../images/tmc_sub.png) 0 0 repeat-x #303030;
+ position:absolute;
+ left:0;
+ top:84px;
+}
+#cat ul.subcat1 li {
+ width:449px;
+ float:left;
+ padding:4px 29px 4px 0;
+}
+#cat ul.subcat1 li > img {
+ position:absolute;
+ right:19px;
+ top:19px;
+ display:none;
+}
+#cat ul.subcat1 li:hover > img {
+ display:block;
+}
+#cat ul.subcat1 li a {
+ font:10pt "Calibri";
+ color:#8b8b8b;
+ text-decoration:none;
+}
+#cat ul.subcat1 li a:hover, #cat ul.subcat1 li a.selected {
+ color:#fff;
+}
+#cat ul.subcat1 li div {
+ position:relative;
+}
+#cat ul.subcat1 li div ul.subcat2 {
+ padding:3px 0 7px 0;
+ background:#000;
+ position:absolute;
+ left:0;
+ top:0;
+ display:none;
+}
+#cat ul.subcat1 li div ul.subcat2 li {
+ padding:3px 6px 0 6px;
+}
+#cat ul.subcat1 li:hover div ul.subcat2 {
+ display:block;
+}
+/*.sf-menu sf-js-enabled
+{
+	widows:200px !important;
+}*/
+}
+@media (min-width:360px) {
+/* ————— tmcategories.tpl ————— */
+#tmcategories {
+ min-height:37px;
+ float:left;
+ padding:0px 0 0 0;
+ background:#f8f8f8 !important;
+}
+#cat {
+ position:relative;
+ z-index:1000;
+ padding:6px 0 0 0;
+ background:#f8f8f8 !important;
+}
+#cat > li {
+ float:left;
+ list-style:none !important;
+ background:#f8f8f8 !important;
+/*border-right:1px solid #000;*/
+}
+#cat > li.sub {
+ background:url(../images/tmc_active.png) right -64px no-repeat;
+}
+#cat > li > a {
+ width:329px !important;
+ height:auto;
+	/*border-bottom:1px solid #e4e4e4 !important;*/
+	display:block;
+ padding:6px 9px 6px 9px !important;
+ background:url(../images/tmc_item.png) right 0 no-repeat;
+ font-family:calibri !important;
+ font-size:13pt !important;
+ font-weight:bold;
+ letter-spacing:0.1mm !important;
+ text-transform:uppercase;
+ color:#1c1c1c;
+ text-decoration:none;
+}
+#cat > li:hover > a, #cat > li > a.selected {
+ background:url(../images/tmc_active.png) right 0 no-repeat;
+ border:none;
+}
+#cat > li.sub:hover > a, #cat > li.sub > a.selected {
+ background:url(../images/tmc_active.png) right -31px no-repeat;
+}
+#cat > li > div {
+}
+#cat li ul.subcat1 {
+ width:329px !important;
+ min-height:189px;
+ padding:19px 19px 19px 19px;
+ background:url(../images/tmc_sub.png) 0 0 repeat-x #303030;
+ position:absolute;
+ left:0;
+ top:84px;
+}
+#cat ul.subcat1 li {
+ width:329px;
+ float:left;
+ padding:4px 29px 4px 0;
+}
+#cat ul.subcat1 li > img {
+ position:absolute;
+ right:19px;
+ top:19px;
+ display:none;
+}
+#cat ul.subcat1 li:hover > img {
+ display:block;
+}
+#cat ul.subcat1 li a {
+ font:10pt "Calibri";
+ color:#8b8b8b;
+ text-decoration:none;
+}
+#cat ul.subcat1 li a:hover, #cat ul.subcat1 li a.selected {
+ color:#fff;
+}
+#cat ul.subcat1 li div {
+ position:relative;
+}
+#cat ul.subcat1 li div ul.subcat2 {
+ padding:3px 0 7px 0;
+ background:#000;
+ position:absolute;
+ left:0;
+ top:0;
+ display:none;
+}
+#cat ul.subcat1 li div ul.subcat2 li {
+ padding:3px 6px 0 6px;
+}
+#cat ul.subcat1 li:hover div ul.subcat2 {
+ display:block;
+}
+/*.sf-menu sf-js-enabled
+{
+	widows:200px !important;
+}*/
+}
+@media (max-width:640px) {
+/* ————— tmcategories.tpl ————— */
+#tmcategories {
+ min-height:37px;
+ float:left;
+ padding:0px 0 0 0;
+ background:#f8f8f8 !important;
+}
+#cat {
+ position:relative;
+ z-index:1000;
+ padding:6px 0 0 0;
+ background:#f8f8f8 !important;
+}
+#cat > li {
+ float:left;
+ list-style:none !important;
+ background:#f8f8f8 !important;
+/*border-right:1px solid #000;*/
+}
+#cat > li.sub {
+ background:url(../images/tmc_active.png) right -64px no-repeat;
+}
+#cat > li > a {
+ width:609px !important;
+ height:auto;
+	/*border-bottom:1px solid #e4e4e4 !important;*/
+	display:block;
+ padding:6px 9px 6px 9px !important;
+ background:url(../images/tmc_item.png) right 0 no-repeat;
+ font-family:calibri !important;
+ font-size:13pt !important;
+ font-weight:bold;
+ letter-spacing:0.1mm !important;
+ text-transform:uppercase;
+ color:#1c1c1c;
+ text-decoration:none;
+}
+#cat > li:hover > a, #cat > li > a.selected {
+ background:url(../images/tmc_active.png) right 0 no-repeat;
+ border:none;
+}
+#cat > li.sub:hover > a, #cat > li.sub > a.selected {
+ background:url(../images/tmc_active.png) right -31px no-repeat;
+}
+#cat > li > div {
+}
+#cat li ul.subcat1 {
+ width:609px !important;
+ min-height:189px;
+ padding:19px 19px 19px 19px;
+ background:url(../images/tmc_sub.png) 0 0 repeat-x #303030;
+ position:absolute;
+ left:0;
+ top:84px;
+}
+#cat ul.subcat1 li {
+ width:609px;
+ float:left;
+ padding:4px 29px 4px 0;
+}
+#cat ul.subcat1 li > img {
+ position:absolute;
+ right:19px;
+ top:19px;
+ display:none;
+}
+#cat ul.subcat1 li:hover > img {
+ display:block;
+}
+#cat ul.subcat1 li a {
+ font:10pt "Calibri";
+ color:#8b8b8b;
+ text-decoration:none;
+}
+#cat ul.subcat1 li a:hover, #cat ul.subcat1 li a.selected {
+ color:#fff;
+}
+#cat ul.subcat1 li div {
+ position:relative;
+}
+#cat ul.subcat1 li div ul.subcat2 {
+ padding:3px 0 7px 0;
+ background:#000;
+ position:absolute;
+ left:0;
+ top:0;
+ display:none;
+}
+#cat ul.subcat1 li div ul.subcat2 li {
+ padding:3px 6px 0 6px;
+}
+#cat ul.subcat1 li:hover div ul.subcat2 {
+ display:block;
+}
+/*.sf-menu sf-js-enabled
+{
+	widows:200px !important;
+}*/
+}

@@ -1,0 +1,2005 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*I Series Phone Starts Here*/
+.section-bg {
+	height: 450px;
+	width: 100%;
+}
+.section-content {
+	font-family: 'Open Sans', sans-serif;
+}
+.section-content h1 {
+	font-size: 40px;
+	line-height: 45px;
+	margin-bottom: 10px;
+}
+.section-content h2 {
+	font-size: 30px;
+	line-height: 35px;
+	margin-bottom: 10px;
+}
+.section-content p {
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	font-weight: 300;
+}
+.specification-mobile {
+	padding: 0 0;
+	background-color: #fff;
+}
+.specification-mobile-a221 {
+	padding: 100px 0;
+	background-color: #eee;
+}
+.r221-specs {
+	padding: 100px 0;
+	background-color: #eee;
+}
+h1.model-num {
+	font-size: 60px;
+	line-height: 65px;
+	font-weight:bold;
+}
+ul.product-color-pallate {
+	list-style: none;
+}
+ul.product-color-pallate li {
+	float: left;
+}
+li.product-color-swatch {
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	margin-right: 5px;
+	border: 1px solid #eee;
+}
+.vertical-swatch-divider {
+	margin-bottom: 20px;
+}
+li.black {
+	background-color: #000;
+}
+li.rose-golden {
+	background-color: #fecccb;
+}
+li.gold {
+	background-color: #ffe8cc;
+}
+li.white {
+	background-color: #fff;
+}
+li.rose-gold {
+	background-color:#f7d3d3;
+}
+li.dark-blue {
+	background-color:#b3d3ea;
+}
+li.blue {
+	background-color:#656d92;
+}
+li.gray {
+	background-color:#3b3b3b;
+}
+li.color-swatch-label {
+	padding: 13px 8px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+.m450 {
+	margin-top: 450px;
+}
+.m400 {
+	margin-top: 400px;
+}
+.m280 {
+	margin-top: 280px;
+}
+.m275 {
+	margin-top: 275px;
+}
+.m250 {
+	margin-top: 250px;
+}
+.m220 {
+	margin-top: 220px;
+}
+.m200 {
+	margin-top: 200px;
+}
+.m150 {
+	margin-top: 150px;
+}
+.m100 {
+	margin-top: 100px;
+}
+.m60 {
+	margin-top: 60px;
+}
+.btn {
+	border-radius: 0;
+}
+.a110-first-banner {
+	background:url(../images/products/a110/a110-banner.jpg);
+}
+.a111-first-banner {
+	background: url(../images/products/a111/a111-banner.jpg);
+}
+.a111-1 {
+	color: #fff;
+}
+.a115-first-banner {
+	background: url(../images/products/a115/Vida-A115.jpg);
+}
+.a115-1 {
+	color: #fff;
+}
+.a120-first-banner {
+	background: url(../images/products/a120/Vida-A120.jpg);
+}
+.a121-first-banner {
+	background: url(../images/products/a121/Vida-A121.jpg);
+}
+.a121-1 {
+	color: #fff;
+}
+.a201-first-banner {
+	background: url(../images/products/a201/a201-banner-bg.jpg);
+}
+.a201-1 {
+	color: #fff;
+}
+.a219-first-banner {
+	background: url(../images/products/a219/Vida-A219.jpg);
+}
+.a219-1 {
+	color: #fff;
+}
+.a221-first-banner {
+	background:url(../images/products/a221/a221-banner.jpg);
+}
+.d119-first-banner {
+	background: url(../images/products/dseries/d119/front-banner.jpg);
+}
+.d119-1 {
+	color: #fff;
+}
+.d201-first-banner {
+	background: url(../images/products/dseries/d201/front-banner.jpg);
+}
+.d201-1 {
+	color: #fff;
+}
+/*i401*/
+
+.i401-first-part {
+	background: url(../images/products/iseries/i401/2.jpg);
+}
+.i401-second-part {
+	background: url(../images/products/iseries/i401/second-bg.jpg);
+}
+.mob-image img {
+}
+.mob-image-details h1 {
+	font-size: 36px;
+}
+.mob-image-details p {
+	margin-top: 19px;
+	font-size: 18px;
+	color: #333333;
+	padding-left: 2px;
+	line-height: 28px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+}
+.i401-forth-part {
+	background: url(../images/products/iseries/i401/forth-mob.jpg);
+}
+.i401-3 {
+	text-align: center;
+}
+/*i506 Starts Here*/
+.i506-first-part {
+	background: url(../images/products/iseries/i506/first-sec-bg.jpg);
+}
+.i506-second-part {
+	background: url(../images/products/iseries/i506/second-sec-bg.jpg);
+}
+.i506-2 h1, .i506-2 p {
+	color: #fff;
+}
+.i506-third-part {
+	background: url(../images/products/iseries/i506/third-sec-bg.jpg);
+}
+.i506-color-sec {
+	width: 100%;
+}
+.color-per-sec {
+	margin: 10px;
+}
+.i506-forth-part {
+	background: url(../images/products/iseries/i506/forth-sec-bg.jpg);
+}
+.forth-part-heading-bottom p {
+	color: #333;
+}
+.i506-fifth-part {
+	background: url(../images/products/iseries/i506/fifth-sec-bg.jpg);
+}
+.i506-fifth-part h1 {
+	color:#fff;
+}
+.i506-fifth-part p {
+	color: #fff;
+	text-align: center;
+}
+/*i551*/
+
+.i551-first-part {
+	background: url(../images/products/iseries/i551/1.jpg);
+}
+.i551-1 {
+	text-align: right;
+}
+.i551-second-part {
+	background: url(../images/products/iseries/i551/3.jpg);
+}
+.i551-third-part {
+	background: url(../images/products/iseries/i551/2.jpg);
+}
+.i551-color-swatch {
+	width: 100%;
+	height:auto;
+	padding:15px 0;
+}
+.i551-forth-part {
+	background: url(../images/products/iseries/i551/4.jpg);
+}
+/*i503 Starts Here*/
+.i503-first-part {
+	width: 100%;
+	background-color: #fff;
+	background: url(../images/products/iseries/i503/1.jpg);
+}
+.i503-1 h1, .i503-1 p {
+	color:#fff;
+}
+.i503-second-part {
+	background: url(../images/products/iseries/i503/3.jpg);
+}
+.i506-third-part {
+	background: url(../images/products/iseries/i506/third-sec-bg.jpg);
+}
+.i506-color-sec {
+	width: 100%;
+	clear:both;
+}
+.color-per-sec {
+	margin: 10px;
+}
+.content {
+	font-size: 17px;
+	padding: 10px;
+	text-transform: capitalize;
+}
+.i506-forth-part {
+	background: url(../images/products/iseries/i506/forth-sec-bg.jpg);
+}
+.i402-banner {
+	background: url(../images/products/iseries/i402/1.jpg);
+}
+.i402-banner2 {
+	background: url(../images/products/iseries/i402/2.jpg);
+}
+.i402-2 {
+	color: #fff;
+}
+.i402-banner3 {
+	background: url(../images/products/iseries/i402/3.jpg);
+}
+/*I601*/
+.i601-first-banner {
+	background: url(../images/products/iseries/i601/1a.jpg);
+}
+.i601-1, .i601-2, .i601-4 {
+	color: #fff;
+}
+.i601-second-banner {
+	background: url(../images/products/iseries/i601/2.jpg);
+}
+.i601-third-banner {
+	background: url(../images/products/iseries/i601/3.jpg);
+}
+.i601-forth-banner {
+	background: url(../images/products/iseries/i601/4.jpg);
+}
+/*I450*/
+.i450-banner {
+	background:url(../images/products/iseries/i450/i450-banner-1.jpg);
+}
+.i450-1 {
+	color:#000;
+}
+/*I517*/
+
+
+/*I553*/
+.i553-banner {
+	background:url(../images/products/iseries/i553/i553-banner-1.jpg);
+}
+.i553-1 {
+	color:#fff;
+}
+/*V501*/
+.v501-banner1 {
+	background: url(../images/products/vseries/v501/2.jpg);
+}
+.v501-1 {
+	color: #fff;
+}
+.v501-third-banner {
+	background-color: #eee;
+	padding: 100px 0;
+}
+/*V502*/
+.v502-banner1 {
+	background: url(../images/products/vseries/v502/1.jpg);
+}
+.v502-banner2 {
+	background: url(../images/products/vseries/v502/6.jpg);
+}
+.v502-forth-banner {
+	background-color: #eee;
+	padding: 100px 0;
+}
+/*V503*/
+.v503-banner1 {
+	background: url(../images/products/vseries/v503/Vida-V503-Blue.jpg);
+}
+.v503-1 {
+	color: #fff;
+}
+.v503-third-banner {
+	background-color: #eee;
+}
+.v550-first-banner {
+	background: url(../images/products/vseries/v550/Vida-V550-Gold.jpg);
+}
+.v551-first-banner {
+	background: url(../images/products/vseries/v551/v551-1.jpg);
+}
+.v551-second-banner2 {
+	background: url(../images/products/vseries/v551/v551-2.jpg);
+}
+/*R240*/
+
+.r240-first-banner1 {
+	background: url(../images/products/rseries/r240/1.jpg);
+}
+.r240-second-banner2 {
+	background: url(../images/products/rseries/r240/6.jpg);
+}
+.r240-2, .r240-4, .r240-6 {
+	color: #fff;
+}
+.r240-third-banner3 {
+	background: url(../images/products/rseries/r240/2.jpg);
+}
+.r240-forth-banner4 {
+	background: url(../images/products/rseries/r240/5.jpg);
+}
+.r240-fifth-banner5 {
+	background: url(../images/products/rseries/r240/3.jpg);
+}
+.r240-sixth-banner6 {
+	background: url(../images/products/rseries/r240/9.jpg);
+}
+.r240-6 {
+	background-color: #000;
+	opacity: .8;
+	padding: 10px;
+}
+.r240-seventh-banner7 {
+	background: url(../images/products/rseries/r240/8.jpg);
+}
+.r240-eighth-banner8 {
+	width: 100%;
+	padding: 100px 0;
+	background: #fff;
+}
+/*R501*/
+.r501-first-banner {
+	background: url(../images/products/rseries/r501/1.jpg);
+}
+.r501-1, .r501-3 {
+	color: #fff;
+}
+.r501-second-banner {
+	background: url(../images/products/rseries/r501/2.jpg);
+}
+.r501-third-banner {
+	background: url(../images/products/rseries/r501/22.jpg);
+}
+.r501-forth-banner {
+	background: url(../images/products/rseries/r501/4.jpg);
+}
+.color-options-2 {
+	width:100%;
+	padding: 100px 0;
+	background: #fff;
+}
+.r501-sixth-banner {
+	background-color:#eee;
+}
+/*R470*/
+.r470-first-banner {
+	background: url(../images/products/rseries/r470/1.jpg);
+	display:block;
+	max-width:100%;
+	height:555px;
+}
+.r470-1, .r470-3 {
+	color: #fff;
+}
+.r470-second-banner {
+	background: url(../images/products/rseries/r470/2.jpg);
+	display:block;
+	max-width:100%;
+	height:458px;
+}
+.r470-third-banner {
+	background: url(../images/products/rseries/r470/3.jpg);
+	display:block;
+	max-width:100%;
+	height:458px;
+}
+.r470-forth-banner {
+	background: url(../images/products/rseries/r470/4.jpg);
+	display:block;
+	max-width:100%;
+	height:762px;
+}
+.r470-5-banner {
+	background: url(../images/products/rseries/r470/5.jpg);
+	display:block;
+	max-width:100%;
+	height:763px;
+}
+.r470-6-banner {
+	background: url(../images/products/rseries/r470/6.jpg);
+	display:block;
+	max-width:100%;
+	height:734px;
+}
+.r470-7-banner {
+	background: url(../images/products/rseries/r470/7.jpg);
+	display:block;
+	max-width:100%;
+	height:768px;
+}
+.r470-8-banner {
+	background: url(../images/products/rseries/r470/8.jpg);
+	display:block;
+	max-width:100%;
+	height:554px;
+}
+.r470-9-banner {
+	background: url(../images/products/rseries/r470/9.jpg);
+	display:block;
+	max-width:100%;
+	height:762px;
+}
+.r470-10-banner {
+	background: url(../images/products/rseries/r470/10.jpg);
+	display:block;
+	max-width:100%;
+	height:1082px;
+}
+.r470-11-banner {
+	background: url(../images/products/rseries/r470/11.jpg);
+	display:block;
+	max-width:100%;
+	height:761px;
+}
+.r470-12-banner {
+	background: url(../images/products/rseries/r470/12.jpg);
+	display:block;
+	max-width:100%;
+	height:750px;
+}
+.r470-13-banner {
+	background: url(../images/products/rseries/r470/13.jpg);
+	display:block;
+	max-width:100%;
+	height:677px;
+}
+.r470-14-banner {
+	background: url(../images/products/rseries/r470/14.jpg);
+	display:block;
+	max-width:100%;
+	height:1166px;
+}
+.r470-15-banner {
+	background: url(../images/products/rseries/r470/15.jpg);
+	display:block;
+	max-width:100%;
+	height:762px;
+}
+.color-options-2 {
+	width:100%;
+	padding: 100px 0;
+	background: #fff;
+}
+.r470-sixth-banner {
+	background-color:#eee;
+}
+
+/*W101*/
+.w101-first-banner {
+	background: url(../images/products/mifi/w101/1.jpg);
+	display:block;
+	max-width:100%;
+	height:760px;
+}
+.w101-1, .w101-3 {
+	color: #fff;
+}
+.w101-second-banner {
+	background: url(../images/products/mifi/w101/2.jpg);
+	display:block;
+	max-width:100%;
+	height:760px;
+}
+.w101-third-banner {
+	background: url(../images/products/mifi/w101/3.jpg);
+	display:block;
+	max-width:100%;
+	height:760px;
+}
+.w101-forth-banner {
+	background: url(../images/products/mifi/w101/4.jpg);
+	display:block;
+	max-width:100%;
+	height:760px;
+}
+.color-options-2 {
+	width:100%;
+	padding: 100px 0;
+	background: #fff;
+}
+.w101-sixth-banner {
+	background-color:#eee;
+}
+
+/*LIFESTYLE*/
+.lyfstyle-first-banner {
+	background:url(../images/banners/New-Banner-lifestyle-1.jpg);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.lyfstyle-1, .lyfstyle-3 {
+	color: #fff;
+}
+.lyfstyle-second-banner {
+	background: url(../images/banners/New-Banner-lifestyle-2.jpg);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.lyfstyle-third-banner {
+	background: url(../images/banners/New-Banner-lifestyle-3.jpg);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.lyfstyle-forth-banner {
+	background: url(../images/banners/New-Banner-lifestyle-4.jpg);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.lyfstyle-fifth-banner {
+	background: url(../images/banners/New-Banner-lifestyle-5.jpg);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+/*.lyfstyle-sixth-banner {
+	background: url(../images/products/lifestyle/Banners-6.jpg);
+	display:block;
+	max-width:100%;
+	height:450px;
+}*/
+.color-options-2 {
+	width:100%;
+	padding: 100px 0;
+	background: #fff;
+}
+/*.lyfstyle-sixth-banner {
+	background-color:#eee;
+}*/
+
+/*MISSION*/
+.mission-first-banner {
+	background:url(../images/products/mission-control/home/Mission-control-home-page-additional-parts-2.png);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.mission-1, .mission-3 {
+	color: #fff;
+}
+.mission-second-banner {
+	background: url(../images/products/mission-control/home/Mission-control-home-page-additional-parts-3.png);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.mission-third-banner {
+	background: url(../images/products/mission-control/home/Mission-control-home-page-additional-parts-4.png);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.mission-forth-banner {
+	background: url(../images/products/mission-control/home/Mission-control-home-page-additional-parts-5.png);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.mission-fifth-banner {
+	background: url(../images/products/mission-control/home/Mission-control-home-page-additional-parts-6.png);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.mission-sixth-banner {
+	background: url(../images/products/mission-control/home/Mission-control-home-page-additional-parts-7.png);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.mission-seventh-banner {
+	background: url(../images/products/mission-control/home/Mission-control-home-page-additional-parts-8.png);
+	display:block;
+	max-width:100%;
+	height:450px;
+}
+.color-options-2 {
+	width:100%;
+	padding: 100px 0;
+	background: #fff;
+}
+/*.mission-sixth-banner {
+	background-color:#eee;
+}*/
+
+
+/*IOT*/
+.iot-title-banner {
+	color:#ffffff;
+	background:#ff9e19;
+	padding:16px;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:30pt;
+	font-weight:lighter !important;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.iot-first-banner {
+	background: url(../images/products/iotseries/1.jpg);
+	display:block;
+	max-width:100%;
+	height:355px;
+}
+.iot-1, .iot-3 {
+	color: #fff;
+}
+.iot-second-banner {
+	background: url(../images/products/iotseries/2a.jpg);
+	display:block;
+	max-width:100%;
+	height:186px;
+}
+.iot-third-banner {
+	background: url(../images/products/iotseries/3.jpg);
+	display:block;
+	max-width:100%;
+	height:713px;
+}
+.iot-forth-banner {
+	background: url(../images/products/iotseries/4.jpg) no-repeat;
+	display:block;
+	max-width:100%;
+	height:325px;
+}
+.iot-5-banner {
+	background: url(../images/products/iotseries/7.jpg);
+	display:block;
+	max-width:100%;
+	height:375px;
+}
+.iot-6-banner {
+	background: url(../images/products/iotseries/6.jpg);
+	display:block;
+	max-width:100%;
+	height:734px;
+}
+.iot-7-banner {
+	background: url(../images/products/iotseries/7.jpg);
+	display:block;
+	max-width:100%;
+	height:768px;
+}
+.iot-8-banner {
+	background: url(../images/products/iotseries/8.jpg);
+	display:block;
+	max-width:100%;
+	height:554px;
+}
+.iot-9-banner {
+	background: url(../images/products/iotseries/9.jpg);
+	display:block;
+	max-width:100%;
+	height:762px;
+}
+.iot-10-banner {
+	background: url(../images/products/iotseries/10.jpg);
+	display:block;
+	max-width:100%;
+	height:1082px;
+}
+.iot-11-banner {
+	background: url(../images/products/iotseries/11.jpg);
+	display:block;
+	max-width:100%;
+	height:761px;
+}
+.iot-12-banner {
+	background: url(../images/products/iotseries/12.jpg);
+	display:block;
+	max-width:100%;
+	height:750px;
+}
+.iot-13-banner {
+	background: url(../images/products/iotseries/13.jpg);
+	display:block;
+	max-width:100%;
+	height:677px;
+}
+.iot-14-banner {
+	background: url(../images/products/iotseries/14.jpg);
+	display:block;
+	max-width:100%;
+	height:1166px;
+}
+.iot-15-banner {
+	background: url(../images/products/iotseries/15.jpg);
+	display:block;
+	max-width:100%;
+	height:762px;
+}
+.color-options-2 {
+	width:100%;
+	padding: 100px 0;
+	background: #fff;
+}
+.iot-sixth-banner {
+	background-color:#eee;
+}
+.iot-oth-banner {
+	background-color:#0e0e21;
+}
+/*P301*/
+.p301-first-banner {
+	background: url(../images/products/pseries/p301/1.jpg);
+	display:block;
+	max-width:100%;
+	height:894px;
+}
+.p301-1, .p301-3 {
+	color: #fff;
+}
+.p301-second-banner {
+	background: url(../images/products/pseries/p301/2.jpg);
+	display:block;
+	max-width:100%;
+	height:1415px;
+}
+.p301-third-banner {
+	background: url(../images/products/pseries/p301/3.jpg);
+	display:block;
+	max-width:100%;
+	height:721px;
+}
+.p301-forth-banner {
+	background: url(../images/products/pseries/p301/4.jpg);
+	display:block;
+	max-width:100%;
+	height:652px;
+}
+.p301-5-banner {
+	background: url(../images/products/pseries/p301/5.jpg);
+	display:block;
+	max-width:100%;
+	height:528px;
+}
+.p301-6-banner {
+	background: url(../images/products/pseries/p301/6.jpg);
+	display:block;
+	max-width:100%;
+	height:734px;
+}
+.p301-7-banner {
+	background: url(../images/products/pseries/p301/7.jpg);
+	display:block;
+	max-width:100%;
+	height:768px;
+}
+.p301-8-banner {
+	background: url(../images/products/pseries/p301/8.jpg);
+	display:block;
+	max-width:100%;
+	height:554px;
+}
+.p301-9-banner {
+	background: url(../images/products/pseries/p301/9.jpg);
+	display:block;
+	max-width:100%;
+	height:762px;
+}
+.p301-10-banner {
+	background: url(../images/products/pseries/p301/10.jpg);
+	display:block;
+	max-width:100%;
+	height:1082px;
+}
+.p301-11-banner {
+	background: url(../images/products/pseries/p301/11.jpg);
+	display:block;
+	max-width:100%;
+	height:761px;
+}
+.p301-12-banner {
+	background: url(../images/products/pseries/p301/12.jpg);
+	display:block;
+	max-width:100%;
+	height:750px;
+}
+.p301-13-banner {
+	background: url(../images/products/pseries/p301/13.jpg);
+	display:block;
+	max-width:100%;
+	height:677px;
+}
+.p301-14-banner {
+	background: url(../images/products/pseries/p301/14.jpg);
+	display:block;
+	max-width:100%;
+	height:1166px;
+}
+.p301-15-banner {
+	background: url(../images/products/pseries/p301/15.jpg);
+	display:block;
+	max-width:100%;
+	height:762px;
+}
+.color-options-2 {
+	width:100%;
+	padding: 100px 0;
+	background: #fff;
+}
+.p301-sixth-banner {
+	background-color:#eee;
+}
+/*P302*/
+.p302-first-banner {
+	background:none;;
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+.p302-1, .p302-3 {
+	color: #fff;
+}
+.p302-second-banner {
+	background: url(../images/products/pseries/p302/2.jpg);
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+.p302-third-banner {
+	background: url(../images/products/pseries/p302/3.jpg);
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+.p302-forth-banner {
+	background: url(../images/products/pseries/p302/4.jpg);
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+
+
+@media (min-width:320px) & (max-width:480px) {
+	/*P302*/
+.p302-first-banner {
+	background:none;;
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+.p302-1, .p302-3 {
+	color: #fff;
+}
+.p302-second-banner {
+	background: url(../images/products/pseries/p302/2.jpg);
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+.p302-third-banner {
+	background: url(../images/products/pseries/p302/3.jpg);
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+.p302-forth-banner {
+	background: url(../images/products/pseries/p302/4.jpg);
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+}
+.color-options-2 {
+	width:100%;
+	padding: 100px 0;
+	background: #fff;
+}
+.p302-sixth-banner {
+	background-color:#eee;
+}
+/*R221*/
+.r221-first-banner {
+	background:url(../images/products/rseries/r221/r221-banner.jpg);
+}
+.r221-1 {
+	color:#090000;
+}
+.r221-models {
+	background-color:#f4f2ee;
+	background:url(../images/products/rseries/r221/r221-banner2.jpg);
+	padding:90px 0;
+}
+.r221-models-details {
+	padding:10px 0;
+}
+.r221-models-details h4 {
+	font-size:40px;
+	line-height:56px;
+	font-weight:300;
+	color:#fff;
+}
+.r221-models-image {
+}
+.r221-models-image img {
+	margin: 0 auto;
+}
+/*MERLION SERIES BANNER*/
+.m701-first-banner {
+	background:url(../images/products/merlion/wifi-tab/banner/m701.jpg);
+}
+.m801-first-banner {
+	background:url(../images/products/merlion/wifi-tab/banner/m801.jpg);
+}
+.m801-1 {
+	color:#fff;
+}
+.m901-first-banner {
+	background:url(../images/products/merlion/wifi-tab/banner/m901.jpg);
+}
+.m901-1 {
+	color:#fff;
+}
+.m101-first-banner {
+	background:url(../images/products/merlion/wifi-tab/banner/m101.jpg);
+}
+.m102-first-banner {
+	background:url(../images/products/merlion/wifi-tab/banner/m102.jpg);
+}
+.m730-first-banner {
+	background:url(../images/products/merlion/3g-4g-tab/banner/m730.jpg);
+}
+.m830-first-banner {
+	background:url(../images/products/merlion/3g-4g-tab/banner/m830.jpg);
+}
+.m830-1 {
+	color:#fff;
+}
+.m131-first-banner {
+	background:url(../images/products/merlion/3g-4g-tab/banner/m131.jpg);
+}
+.m132-first-banner {
+	background:url(../images/products/merlion/3g-4g-tab/banner/m132.jpg);
+}
+/*MERLION INSIDE TAB PAGES*/ 
+/*WIFI TAB PC*/
+.tab-card {
+	padding: 48px 24px 95px;
+	background:#fff;
+	border:1px solid transparent;
+transition:.3s all ease-in-out;
+-webkit-transition:.3s all ease-in-out;
+-moz-transition:.3s all ease-in-out;
+}
+.tab-card:hover {
+	border:1px solid #ddd;
+}
+.tab-card img {
+	margin:0px auto;
+}
+.tab-card-info {
+	text-align:center;
+	font-size:22px;
+	line-height:1.32;
+	font-weight:300;
+}
+.tab-card-info a {
+	text-decoration:none;
+	color:#363636;
+}
+.tab-card-features-wrap {
+	margin-top:15px;
+}
+ul.tab-card-feature {
+	width:100%;
+}
+li.tab-card-features-list {
+	overflow: hidden;
+	width: 100%;
+	height: 56px;
+	height: 3.88889vw;
+	border-top: 1px solid #dadada;
+	color: #363636;
+}
+span.tab-card-features-title {
+	float: left;
+	height: 30px;
+	height: 2.08333vw;
+	margin-top: 14px;
+	margin-top: 0.97222vw;
+}
+span.tab-card-features-title-inner {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: inline-block;
+	display: -webkit-box;
+	overflow: inherit;
+	max-height: 2.7em;
+	font-size: 14px;
+	text-align: left;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+strong.tab-card-features-value {
+	float: right;
+	height: 45px;
+	height: 3.125vw;
+	line-height: 45px;
+	line-height: 3.125vw;
+	margin-top: 6px;
+	margin-top: 0.41667vw;
+	font-weight: normal;
+	text-align: right;
+}
+strong.tab-card-features-value .value-img {
+	display: inline-block;
+	position: relative;
+	max-width: 97%;
+}
+.value-img img {
+	width: auto;
+	max-width: 100%;
+	height: 45px;
+	vertical-align: middle;
+}
+.tab-card-btn-wrap {
+	position: absolute;
+	z-index: 10;
+	padding: 15px 47px;
+	padding: 1vw 3.26389vw;
+	left: 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.tab-card-btn-wrap .btn {
+	display: inline-block;
+	padding: 6px 30px;
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 0px;
+}
+.tab-card-btn-wrap .btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #1428a0;
+}
+.tab-card-btn-wrap .btn:hover {
+	background-color: #1428a0;
+	color:#fff;
+}
+/*APP SOLUTION PAGE*/
+.app-solution {
+	margin:30px 0;
+}
+.app-left, .app-right {
+	background:rgb(244, 242, 238);
+	width:100%;
+	padding:0px 20px;
+}
+.app-text {
+	width:50%;
+	float:left;
+	box-sizing:border-box;
+	padding-top:40px;
+}
+.app-image {
+	width:50%;
+	display:flex;
+	box-sizing:border-box;
+	padding-top:40px;
+	max-height:340px;
+}
+.app-image img {
+	min-height:300px;
+}
+.app-text h4 {
+	font-size: 40px;
+	line-height: 56px;
+	font-weight:300;
+	margin-bottom:20px;
+}
+.app-solution a {
+	color:#333;
+}
+.app-solution a:hover {
+	color:#333;
+}
+.app-text-right h4 {
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	line-height: 56px;
+	padding-top: 20px;
+	font-weight: 300;
+	box-sizing:border-box;
+}
+.app-image-right img {
+	display:block;
+	height:208px;
+	margin:0 auto;
+}
+/*Mission Control PAGE*/
+.section-bg-bss {
+	height: 1440px;
+	width: 100%;
+}
+.bss-vida-slides-1 {
+	background:url(../images/products/vida-slides/1.jpg);
+}
+.bss-vida-slides-2 {
+	background:url(../images/products/vida-slides/2.jpg);
+}
+.bss-vida-slides-3 {
+	background:url(../images/products/vida-slides/3.jpg);
+}
+.bss-vida-slides-4 {
+	background:url(../images/products/vida-slides/4.jpg);
+}
+.bss-vida-slides-5 {
+	background:url(../images/products/vida-slides/5.jpg);
+}
+.bss-vida-slides-6 {
+	background:url(../images/products/vida-slides/6.jpg);
+}
+.bss-vida-slides-7 {
+	background:url(../images/products/vida-slides/7.jpg);
+}
+.bss-vida-slides-8 {
+	background:url(../images/products/vida-slides/8.jpg);
+}
+.bss-vida-slides-9 {
+	background:url(../images/products/vida-slides/9.jpg);
+}
+.bss-vida-slides-10 {
+	background:url(../images/products/vida-slides/10.jpg);
+}
+.hoylu-pg, .mission-control-2 {
+	width:100%;
+}
+.hoylu-pg-image, .m-c-image {
+	width:100%;
+}
+.hoylu-pg img, .m-c-image img {
+	width:100%;
+}
+
+/*ROUTERS LANDING PAGE*/
+.router-landing-landing {
+	background:url(../images/banners/Banner-Routers1.jpg);
+}
+.router-landing {
+	background:url(../images/banners/Banner-Routers1.jpg);
+}
+.router-landing-title{
+	position:absolute; 
+	z-index:999; 
+	overflow:hidden; 
+	top:250px; 
+	left:150px;
+	margin-bottom:19px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:52pt; 
+	font-weight:normal !important; 
+	color:#000000 !important;
+}
+.router-landing-title-butt{
+	position:relative; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px 
+}
+.router-landing-title-butt:hover{
+	position:relative; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #ffffff;
+	background:#ffffff;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px 
+}
+
+/*MIFI LANDING PAGE*/
+.mifi-landing-landing {
+	background:url(../images/banners/Banner-WirelessHotspot.jpg);
+}
+.mifi-landing {
+	background:url(../images/banners/Banner-WirelessHotspot.jpg);
+}
+.mifi-landing-title{
+	position:absolute;
+	z-index:999;
+	overflow:hidden;
+	top:691px !important;
+	right:150px !important;
+	margin-bottom:19px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:52pt;
+	font-weight:normal !important;
+	color:#000000 !important;
+}
+.mifi-landing-title-butt{
+	position:relative;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px 
+}
+.mifi-landing-title-butt:hover{
+	position:relative;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #ffffff;
+	background:#ffffff;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px 
+}
+
+.mifi-landing-landing-title{
+	position:absolute; 
+	z-index:999; 
+	overflow:hidden; 
+	top:250px !important; 
+	right:150px !important;
+	margin-bottom:19px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:52pt; 
+	font-weight:normal !important; 
+	color:#000000 !important;
+}
+.mifi-landing-landing-title-butt{
+	position:relative;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px 
+}
+.mifi-landing-landing-title-butt:hover{
+	position:relative;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #ffffff;
+	background:#ffffff;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px 
+}
+
+/*IOT POS PAGE*/
+.iot-landing-landing {
+	background:url(../images/banners/Banner-IOT.jpg);
+}
+.iot-landing {
+	background:url(../images/banners/Banner-IOT.jpg);
+}
+.iot-landing-title{
+	position:absolute;
+	z-index:999;
+	overflow:hidden;
+	top:301px;
+	right:432px;
+	margin-bottom:19px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:52pt;
+	font-weight:normal !important;
+	color:#000000 !important;
+}
+.iot-landing-title-butt{
+	position:relative; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px 
+}
+.iot-landing-title-butt:hover{
+	position:relative; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #ffffff;
+	background:#ffffff;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px 
+}
+
+.pos-landing-landing {
+	background:url(../images/banners/Banner-POS.jpg);
+}
+.pos-landing {
+	background:url(../images/banners/Banner-POS.jpg);
+}
+.pos-landing-title{
+	position:absolute; 
+	z-index:999; 
+	overflow:hidden; 
+	top:719px !important; 
+	left:150px !important;
+	margin-bottom:19px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:52pt; 
+	font-weight:normal !important; 
+	color:#000000 !important;
+}
+.pos-landing-title-butt{
+	position:relative;	
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px 
+}
+.pos-landing-title-butt:hover{
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #ffffff;
+	background:#ffffff;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px 
+}
+
+/*COPPER LANDING PAGE*/
+.copper-landing-landing {
+	background:url(../images/banners/Banner-CopperFibreProducts.jpg);
+}
+.copper-landing {
+	background:url(../images/banners/Banner-CopperFibreProducts.jpg);
+}
+.copper-landing-title{
+	position:absolute; 
+	z-index:999; 
+	overflow:hidden; 
+	top:250px; 
+	left:150px;
+	margin-bottom:19px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:52pt; 
+	font-weight:normal !important; 
+	color:#000000 !important;
+	text-shadow:1px 1px 1px #ffe8d0;
+}
+.copper-landing-title-butt{
+	position:relative;	
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+	text-shadow:0px 1px 3px #c39e6c;
+}
+.copper-landing-title-butt:hover{
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #ffffff;
+	background:#ffffff;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+}
+
+/*URBAN LANDING PAGE*/
+.urban-landing-landing {
+	background:url(../images/banners/Banner-UrbanRuralConnectivity.jpg);
+}
+.urban-landing {
+	background:url(../images/banners/Banner-UrbanRuralConnectivity.jpg);
+}
+.urban-landing-title{
+	position:absolute; 
+	z-index:999;
+	text-align:right !important; 
+	overflow:hidden; 
+	top:719px !important; 
+	right:150px !important;
+	margin-bottom:19px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:52pt; 
+	font-weight:normal !important; 
+	color:#000000 !important;
+	text-shadow:1px 1px 1px #eeece8;
+}
+.urban-landing-title-butt{
+	position:relative;
+	float:right !important;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+	text-shadow:0px 1px 3px #c39e6c;
+}
+.urban-landing-title-butt:hover{
+	position:relative;
+	float:right !important;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #ffffff!important;
+	background:#ffffff;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+}
+
+/*BSS LANDING PAGE*/
+.mc-landing-landing {
+	background:url(../images/banners/Banner-MissionControl.jpg);
+}
+.mc-landing {
+	background:url(../images/banners/Banner-MissionControl.jpg);
+}
+/*.mc-landing-title{
+	position:absolute; 
+	z-index:999; 
+	overflow:hidden; 
+	top:250px; 
+	left:150px;
+	margin-bottom:19px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:52pt; 
+	font-weight:normal !important; 
+	color:#ffffff !important;
+	text-shadow:1px 1px 1px #333333;
+}
+.mc-landing-title-butt{
+	position:relative; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#ffffff !important; 
+	border:3px solid #ffffff !important; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+	text-shadow:0px 0px 0px; 
+}
+.mc-landing-title-butt:hover{
+	position:relative; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000 !important;
+	background:#000000 !important;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+	text-shadow:0px 0px 0px; 
+}*/
+
+.mc-landing-title{
+	position:absolute; 
+	z-index:999; 
+	overflow:hidden; 
+	top:250px; 
+	left:150px;
+	margin-bottom:19px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:52pt; 
+	font-weight:normal !important; 
+	color:#ffffff !important;
+	text-shadow:1px 1px 1px #333333;
+}
+.mc-landing-title-butt{
+	position:relative;	
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #ffffff; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+	/*text-shadow:0px 1px 3px #c39e6c;*/
+}
+.mc-landing-title-butt:hover{
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#ffffff !important; 
+	border:3px solid #000000;
+	background:#000000;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+}
+
+/*HOYLU LANDING PAGE*/
+.holyu-landing-landing {
+	background:url(../images/banners/Banner-DigitalWorplaceCollaboration.jpg);
+}
+.holyu-landing {
+	background:url(../images/banners/Banner-DigitalWorplaceCollaboration.jpg);
+}
+.holyu-landing-title span{
+	font-size:16pt; 
+	font-weight:normal !important; 
+	color:#333333 !important;
+	text-shadow:0px 0px 0px #333333;
+}
+/*.holyu-landing-title{
+	position:absolute; 
+	z-index:999;
+	text-align:right;
+	overflow:hidden; 
+	top:650px; 
+	right:150px;
+	margin-bottom:19px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:52pt; 
+	font-weight:normal !important; 
+	color:#ffffff !important;
+	text-shadow:1px 1px 1px #333333;
+}
+.holyu-landing-title-butt{
+	position:relative;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#ffffff !important; 
+	border:3px solid #ffffff !important; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+	text-shadow:0px 0px 0px; 
+}
+.holyu-landing-title-butt:hover{
+	position:relative; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000 !important;
+	background:#000000 !important;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+	text-shadow:0px 0px 0px; 
+}*/
+
+.holyu-landing-title{
+	position:absolute; 
+	z-index:999;
+	text-align:right !important; 
+	overflow:hidden; 
+	top:650px !important; 
+	right:150px !important;
+	margin-bottom:19px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:52pt; 
+	font-weight:normal !important; 
+	color:#000000 !important;
+	text-shadow:1px 1px 1px #eeece8;
+}
+.holyu-landing-title-butt{
+	position:relative;
+	float:right !important;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+	text-shadow:0px 1px 3px #c39e6c;
+}
+.holyu-landing-title-butt:hover{
+	position:relative;
+	float:right !important;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #ffffff!important;
+	background:#ffffff;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+}
+
+/*.holyu1-landing-landing {
+	background:url(../images/banners/Banner-DigitalWorplaceCollaboration.jpg);
+}
+.holyu1-landing {
+	background:url(../images/banners/Banner-DigitalWorplaceCollaboration.jpg);
+}
+.holyu1-landing-title{
+	position:absolute; 
+	z-index:999;
+	text-align:right;
+	overflow:hidden; 
+	top:250px; 
+	right:150px;
+	margin-bottom:19px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:52pt; 
+	font-weight:normal !important; 
+	color:#ffffff !important;
+	text-shadow:1px 1px 1px #333333;
+}
+.holyu1-landing-title span{
+	font-size:20pt; 
+	font-weight:normal !important; 
+	color:#333333 !important;
+	text-shadow:0px 0px 0px #333333;
+	padding-top:29px !important;
+}
+.holyu1-landing-title-butt{
+	position:relative;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#ffffff !important; 
+	border:3px solid #ffffff !important; 
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+	text-shadow:0px 0px 0px; 
+}
+.holyu1-landing-title-butt:hover{
+	position:relative; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:18pt; 
+	font-weight:normal !important; 
+	color:#000000 !important; 
+	border:3px solid #000000 !important;
+	background:#000000 !important;
+	padding:6px 9px;
+	margin-top:29px !important; 
+	margin-left:7px; 
+	width:110px;
+	text-shadow:0px 0px 0px; 
+}*/
+
+
+/*ENTERPRISES LANDING PAGE*/
+.enterprises-landing-landing {
+	background:url(../images/products/enterprises/Business-Solution-For-Enterprise-Sample-1.jpg);
+	height:759px;
+}
+.enterprises-landing {
+	background:url(../images/products/enterprises/Business-Solution-For-Enterprise-Sample-1.jpg);
+	height:759px;
+}
+/*HOYLU LANDING PAGE*/
+
+.hoylu-landing-landing {
+	background:url(../images/products/enterprises/Business-Solution-For-Enterprise-Sample-2.jpg);
+	height:759px;
+}
+.hoylu-landing {
+	background:url(../images/products/enterprises/Business-Solution-For-Enterprise-Sample-2.jpg);
+	height:759px;
+}
+
+/*AC 1600 PAGE*/
+.ac1600-first-banner {
+	background:url(../images/products/routers/ac-1600/ac-1600-main-banner.jpg);
+}
+.router-hightlight {
+	background:#f7f7f7;
+	padding:90px 0;
+}
+.r-ac-1600-highlight {
+	padding:15px 10px;
+}
+.routers-highlight-image img {
+	margin:0 auto;
+}
+.r-ac-1600-highlight h2 {
+	font-size:26px;
+	line-height:40px;
+	font-weight:600;
+	color:#465062;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+ul.ac-1600-highlights-features {
+	margin:10px 0;
+	list-style:square;
+	padding:0 20px;
+}
+li.ac-1600-highlights-features-details {
+	font-size:14px;
+	line-height:26px;
+	color:#333;
+	font-weight:400;
+}
+.r-ac-1600-features {
+	background:#fff;
+	padding:90px 0;
+}
+h2.r-ac-1600-support-bands-header, h2.r-ac-1600-specification-header, h2.features-header {
+	font-size:36px;
+	font-weight:600;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	color:#465062;
+	margin-bottom:20px;
+}
+.features-agile {
+	margin-top:2em;
+}
+.features-grid {
+	margin-bottom:2em;
+	background:#f7f7f7;
+	padding:20px;
+}
+.routers-highlight-image {
+	display:block;
+	overflow:hidden;
+}
+.features-image img {
+	width: 100%;
+	filter:grayscale(100);
+	-webkit-filter:grayscale(100);
+	-moz-filter:grayscale(100);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.features-image img:hover {
+	filter:grayscale(0);
+	-webkit-filter:grayscale(0);
+	-moz-filter:grayscale(0);
+}
+.features-image-text {
+	padding: 20px;
+}
+.features-image-text h4 {
+	font-size:24px;
+	font-weight:600;
+	color:#000;
+	margin-bottom:15px;
+}
+.features-image-text p {
+	font-size:15px;
+	font-weight:400;
+	line-height:27px;
+	margin-bottom:5px;
+	text-align:justify;
+}
+.r-ac-1600-specification {
+	background:#f7f7f7;
+	padding:90px 0;
+}
+.specification-area {
+	margin:20px 0;
+}
+.specification-header {
+	padding: 24px 30px 24px 14px;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing:1px;
+	line-height: 1.14;
+	color: #212121;
+	border-bottom:1px solid #dcdbdb;
+}
+ul.r-ac-1600-speci-main-details {
+	margin:0;
+}
+ul.r-ac-1600-speci-main-details li {
+	border-bottom: 1px solid #dcdbdb;
+	overflow: hidden;
+	padding: 5px 10px;
+}
+ul.r-ac-1600-speci-main-details li:last-child {
+	border-bottom: 1px solid transparent;
+}
+.r-ac-1600-speci-heading {
+	font-size: 16px;
+	line-height: 22px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding: 5px;
+	color: #494949;
+}
+.r-ac-1600-speci-info {
+	font-size: 15px;
+	line-height: 20px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 5px;
+	color: #000;
+	font-weight:400;
+}
+.r-ac-1600-speci-info span {
+	display:block;
+}
+.support-bands {
+	background:#fff;
+	padding:90px 0;
+}
+/*HOYLU PRODUCT BANNERS*/
+.hoylu-main-banner {
+	background:url(../images/products/hoylu/home/hoylu-home-banner.jpg);
+}
+.hoylu-product-solution-main-banner {
+	background:url(../images/products/hoylu/product-solution/hoylu-product-solution-banner.jpg);
+}
+.hoylu-convention-main-banner {
+	background:url(../images/products/hoylu/convention/hoylu-convention-banner.jpg);
+}
+.hoylu-lean-construction-main-banner {
+	background:url(../images/products/hoylu/lean-construction/hoylu-lean-construction-banner.jpg);
+}
+.cfprod-main-banner {
+	background:url(../images/cfproducts/cfprod-home-banner.jpg)
+}
+;
+.cfprod-product-solution-main-banner {
+	background:url(../images/cfproducts/cfprod-product-solution-banner.jpg);
+}
+.cfprod-convention-main-banner {
+	background:url(../images/cfproducts/cfprod-convention-banner.jpg);
+}
+.cfprod-lean-construction-main-banner {
+	background:url(../images/cfproducts/cfprod-lean-construction-banner.jpg);
+}
+.section-bg {
+	background-size: cover;
+	background-position:center center;
+}
+.section-bg-bss {
+	background-size: cover;
+	background-position: center center;
+}

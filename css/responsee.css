@@ -1,0 +1,141 @@
+/*
+ * Responsee CSS - v2.2 - 2015-03-08
+ * http://www.myresponsee.com
+ * Copyright 2015, Vision Design - graphic zoo
+ * Free to use under the MIT license.
+*/
+
+ul.chevron .count-number {
+	display:none;
+}
+ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after, ul.chevron .aside-submenu > a:after, ul.chevron .aside-sub-submenu > a:after {
+	display:inline-block;
+	font-family:calibri;
+	font-size:13pt;
+	/*margin:0 0.625em;*/
+}
+.aside-nav > ul > li.active-item > a:link, .aside-nav > ul > li.active-item > a:visited {
+	font-size:13pt;
+	color:#ccddea !important;
+}
+ .aside-nav li li a, .aside-nav li li.active-item a, .aside-nav li li.aside-sub-submenu li a, .aside-nav > ul > li > a, .aside-nav > ul > li.active-item > a:link, .aside-nav > ul > li.active-item > a:visited, .aside-nav li > ul, .aside-nav li a, {
+ transition:background 0.20s linear 0s;
+ -o-transition:background 0.20s linear 0s;
+ -ms-transition:background 0.20s linear 0s;
+ -moz-transition:background 0.20s linear 0s;
+ -webkit-transition:background 0.20s linear 0s;
+}
+.aside-nav ul {
+	background:none;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	font-size:13pt;
+}
+.aside-nav li {
+	list-style:none outside none;
+	cursor:pointer;
+	color:#ccddea !important;
+	padding:5px 7px;
+	font-size:13pt;
+}
+.aside-nav li a {
+	display:block;	
+	text-decoration:none !important;
+	font-style:normal !important;
+	font-size:13pt !important;
+	color:#ccddea !important;
+	list-style:none !important;
+	background:none !important;	
+}
+.aside-nav li a:hover {
+	text-decoration:none !important;
+	color:#ffffff !important;
+	list-style:none !important;
+}
+.aside-nav > ul > li:last-child a {
+	border-bottom:0 none;
+}
+.aside-nav li > ul {
+	height:0;
+	display:block;
+	position:relative;
+	color:#ccddea !important;
+	overflow:hidden;
+	margin-top:0 !important;
+	padding-top:0 !important;
+}
+.aside-nav li ul ul {
+	border:0;
+	background:none;
+	color:#ccddea !important;
+}
+.aside-nav ul ul a {
+	/*padding:0.625em 1.25em;*/
+	color:#ccddea !important;
+	
+}
+.aside-nav li a:link, .aside-nav li a:visited {
+	color:#ccddea !important;
+	margin-top:0 !important;
+	padding-top:0 !important;
+}
+.aside-nav li li a:hover, .aside-nav li li.active-item > a, .aside-nav li li.aside-sub-submenu li a:hover { /* joy */
+	color:#ffffff !important;
+	background:none;
+	margin-top:0 !important;
+	padding-top:0 !important;
+}
+.aside-nav > ul > li > a:hover {
+	color:#ffffff !important;
+	margin-top:0 !important;
+	padding-top:0 !important;
+}
+.aside-nav li li a:hover:before, .aside-nav li li.active-item a:before {
+	content:"";
+	display:inline-block;
+	font-family:"calibri";
+	color:#ccddea !important;
+	font-size:0.6em;
+	/*margin:0 0.625em 0 -1.25em;*/
+	margin-top:0 !important;
+	padding-top:0 !important;
+	width:0.625em;
+}
+.aside-nav li li a:link, .aside-nav li li a:visited {
+	background:none;
+	color:#ccddea !important;
+	margin-top:0 !important;
+	padding-top:0 !important;
+}
+.aside-nav .show-aside-ul, .aside-nav .active-aside-item {
+	display:block;
+	height:auto;
+	color:#ccddea !important;
+	margin-top:0 !important;
+	padding-top:0 !important;
+}
+.show-aside-ul li{
+	font-style:italic !important;
+	font-size:12pt !important;
+	color:#9cbad0 !important;
+	padding-left:6px !important;
+}
+.show-aside-ul li a{
+	font-style:italic !important;
+	font-size:12pt !important;
+	color:#9cbad0 !important;
+}
+.show-aside-ul li a:hover{
+	font-style:italic !important;
+	margin-left:0 !important;
+	padding-left:0 !important;
+	font-size:12pt !important;
+	color:#9cbad0 !important;
+}
+@media screen and (min-width:801px) {
+.aside-nav .count-number {
+ margin-left:-1.25em;
+ float:right;
+ color:#ccddea !important;
+}
+}
